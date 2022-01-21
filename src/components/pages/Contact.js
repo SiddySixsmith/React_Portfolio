@@ -2,51 +2,47 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.css";
 import "../../styles/index.css";
-// import "../../styles/About.css";
 
 function Contact() {
   return (
     <>
-      <div>
+      <div className="contact">
         <Helmet>
-          <title>Contact</title>
+          <title>Contact</title>s
         </Helmet>
       </div>
-      <div className="input-group flex-nowrap">
-        <span className="input-group-text" id="addon-wrapping">
-          @
-        </span>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Username"
-          aria-label="Username"
-          aria-describedby="addon-wrapping"
-        />
-      </div>
-      <div className="input-group flex-nowrap">
-        <span className="input-group-text" id="addon-wrapping">
-          @
-        </span>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Username"
-          aria-label="Username"
-          aria-describedby="addon-wrapping"
-        />
-      </div>
-      <div className="input-group flex-nowrap">
-        <span className="input-group-text" id="addon-wrapping">
-          @
-        </span>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Username"
-          aria-label="Username"
-          aria-describedby="addon-wrapping"
-        />
+      <div className="paragraph">
+        <div className="input-group mb-3">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Your Name"
+            aria-label="Your Name"
+            aria-describedby="button-addon2"
+          />
+        </div>
+        <div className="input-group mb-3">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Your Email"
+            aria-label="Your Email"
+            aria-describedby="button-addon2"
+          />
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Example textarea</label>
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div id="submitBtn">
+          <button id="submit" type="button" className="btn btn-primary btn-lg">
+            Submit
+          </button>
+        </div>
       </div>
     </>
   );

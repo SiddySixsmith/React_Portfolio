@@ -29,25 +29,59 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: var(--light);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  background-color: var(--primary);
+  box-shadow: 0 5px 35px rgb(28, 28, 32);
   background-size: cover;
   margin-bottom: 5%;
   height: 115px;
+  color: var(--light);
+  opacity: 90%;
 }
 
 h1 {
   margin-left: 10%;
   position: relative;
   top: 75%;
+  color: var(--secondary);
 }
 
 footer {
   display: flex;
   justify-content: center;
+  font-size: x-large;
 }
 
 #contact {
   display: flex;
   margin: 15%;
+}
+
+#contact {
+  justify-content: center;
+}
+
+.project {
+  justify-content: center;
+  text-align: center;
+}
+
+#resume {
+  text-decoration: none;
+  position: relative;
+}
+#resumeLink {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+
+h6 {
+  color: var(--secondary);
+}
+
+.card {
+  margin-top: 50px;
+  height: 200px;
+  box-shadow: 0 5px 35px rgb(28, 28, 32);
 }

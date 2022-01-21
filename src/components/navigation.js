@@ -16,18 +16,18 @@ function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "Home" ? "nav-link active" : "nav-link"
               }
             >
-              About Me
+              <h6>About Me</h6>
             </a>
           </li>
           <li className="nav-item">
             <a
               href="#project"
-              onClick={() => handlePageChange("Work")}
+              onClick={() => handlePageChange("Project")}
               className={
                 currentPage === "Project" ? "nav-link active" : "nav-link"
               }
             >
-              Project
+              <h6>Project</h6>
             </a>
           </li>
           <li className="nav-item">
@@ -35,21 +35,22 @@ function Navigation({ currentPage, handlePageChange }) {
               href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
+                currentPage === "Contact"
+                  ? "nav-link active links"
+                  : "nav-link Links"
               }
             >
-              Contact
+              <h6>Contact</h6>
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="resume">
             <a
-              href="#resume"
-              onClick={() => handlePageChange("Resume")}
-              className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
-              }
+              id="resumeLink"
+              href=" ./src/assets/Daniel-Sixmsith-ResumeNew.pdf"
+              download
+              target="_blank"
             >
-              Resume
+              <h6>Resume</h6>
             </a>
           </li>
         </ul>
