@@ -81,7 +81,23 @@ h6 {
 }
 
 .card {
-  margin-top: 50px;
+  margin-top: 60px;
   height: 200px;
   box-shadow: 0 5px 35px rgb(28, 28, 32);
+}
+
+@media screen and (min-width: 1366px) {
+  header {
+    height: 150px;
+  }
+  h1 {
+    top: 40px;
+    right: 20%;
+  }
+
+  li {
+    position: relative;
+    left: 300%;
+    top: 40px;
+  }
 }

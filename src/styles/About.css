@@ -2,3 +2,10 @@
   margin: 10%;
   margin-top: 40%;
 }
+
+@media screen and (min-width: 1366px) {
+  .paragraph {
+    margin: 15%;
+    margin-bottom: -100px;
+  }
+}
