@@ -43,12 +43,15 @@ function Navigation({ currentPage, handlePageChange }) {
               <h6>Contact</h6>
             </a>
           </li>
-          <li className="nav-item" id="resume">
+          <li className="nav-item">
             <a
-              id="resumeLink"
-              href=" ./src/assets/Daniel-Sixmsith-ResumeNew.pdf"
-              download
-              target="_blank"
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume"
+                  ? "nav-link active links"
+                  : "nav-link Links"
+              }
             >
               <h6>Resume</h6>
             </a>

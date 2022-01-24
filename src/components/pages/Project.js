@@ -128,6 +128,62 @@ function Projects() {
             </div>
           </div>
         </div>
+        <div className="col">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title">Weather Dashboard</h3>
+              <p className="card-text">
+                Technolgies: Javascript, HTML, CSS
+                <br />
+                <br />
+                <a
+                  href="https://github.com/SiddySixsmith/Weather-Dashboard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Code
+                </a>
+                <br />
+                <br />
+                <a
+                  href="https://siddysixsmith.github.io/Weather-Dashboard/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Deplopyment
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title">Team Profiler</h3>
+              <p className="card-text">
+                Technolgies: Javascript, HTML, CSS
+                <br />
+                <br />
+                <a
+                  href="https://github.com/SiddySixsmith/Team-Profilier"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Code
+                </a>
+                <br />
+                <br />
+                <a
+                  href="https://drive.google.com/drive/folders/1Kc08dhMktMsrp-tjLila3_jFwlVAqcfE?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Video of usage
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

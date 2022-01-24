@@ -65,15 +65,36 @@ footer {
   text-align: center;
 }
 
-#resume {
+.resume {
   text-decoration: none;
   position: relative;
+  top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.resume-list {
+  font-weight: bolder;
+  list-style-type: none;
+  justify-items: center;
+  position: relative;
+  left: 120px;
+  margin-bottom: 20px;
+}
+#resumeBtn {
+  position: relative;
+  left: 100px;
+  top: 30px;
+  background-color: black;
+  width: 200px;
+  height: 50px;
 }
 #resumeLink {
   text-decoration: none;
-  position: relative;
-  top: 10px;
-  left: 15px;
+  color: white;
+}
+
+#resumeLink :hover {
+  color: var(--secondary);
 }
 
 h6 {
@@ -86,7 +107,7 @@ h6 {
   box-shadow: 0 5px 35px rgb(28, 28, 32);
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1000px) {
   header {
     height: 150px;
   }
@@ -99,5 +120,35 @@ h6 {
     position: relative;
     left: 300%;
     top: 40px;
+  }
+  .resume {
+    text-decoration: none;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .resume-list {
+    font-weight: bolder;
+    list-style-type: none;
+    justify-items: center;
+    position: relative;
+    left: 36%;
+  }
+  #resumeBtn {
+    position: relative;
+    left: 43%;
+    top: 100px;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+  }
+  #resumeLink {
+    text-decoration: none;
+    color: white;
+  }
+
+  #resumeLink :hover {
+    color: var(--secondary);
   }
 }
